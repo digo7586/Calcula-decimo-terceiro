@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cal13.css">
+    <title>Thirteenth Calculator</title>
+</head>
+<body> <!--  container contento os inputs onde mostrara todo o conteudo do pragrama -->
+    <div class="calculator">
+        <!--  titulo que ficara em cima dos inputs -->
+        <h2>Thirteenth Calculator</h2>
+        <!-- campos que receberão entrada de dados -->
+        <div class="input-container">
+            <label for="pay">Salário Mensal</label>
+            <input type="text" id="pay" placeholder="Digite o salário">
+        </div>
+        
+        <div class="input-container">
+            <label for="month">Meses Trabalhados</label>
+            <input type="text" id="month" placeholder="Digite a quantidade de meses">
+        </div>
+        <!-- botão para calcular -->
+        <button type="button" onclick="calcularDecimoTerceiro()" id="calculate">Calcular</button>
+        <!-- espaço na tela onde aparecera os resultado  -->
+        <div class="result" id="result"></div>
+        <div class="result" id="firstParc"></div>
+        <div class="result" id="secondParc"></div>
+        <div class="result" id="descont"></div>
+    </div>
+    <script src="calc13.js"></script>
+</body>
+</html>
